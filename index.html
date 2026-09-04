@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>プライバシーポリシー | カードポケット</title>
+  <title>プライバシーポリシー | カードポケット (Privacy Policy | Card Pocket)</title>
   <style>
     :root { color-scheme: light; --blue: #1a73e8; --ink: #202124; --muted: #5f6368; --line: #dadce0; }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body { margin: 0; background: #f8faff; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
     main { max-width: 760px; margin: 0 auto; padding: 56px 24px 72px; }
     header { border-bottom: 1px solid var(--line); margin-bottom: 36px; padding-bottom: 28px; }
@@ -14,8 +15,15 @@
     h2 { font-size: 20px; margin: 36px 0 12px; }
     p, li { font-size: 16px; }
     .updated { color: var(--muted); margin: 0; }
-    .notice { background: #e8f0fe; border-radius: 12px; padding: 18px 20px; }
+    .notice { background: #e8f0fe; border-radius: 12px; padding: 18px 20px; margin: 16px 0; }
+    .lang { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+    .lang a {
+      display: inline-block; padding: 6px 14px; border: 1px solid var(--line);
+      border-radius: 999px; text-decoration: none; color: var(--ink); font-size: 14px; background: #fff;
+    }
+    .lang a:hover { border-color: var(--blue); color: var(--blue); }
     a { color: #0b57d0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 64px 0; }
     footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; margin-top: 44px; padding-top: 20px; }
   </style>
 </head>
@@ -23,49 +31,104 @@
   <main>
     <header>
       <h1>カードポケット プライバシーポリシー</h1>
-      <p class="updated">最終更新日：2026年8月14日</p>
+      <p class="updated">最終更新日：2026年9月5日</p>
+      <div class="lang">
+        <a href="#ja">日本語</a>
+        <a href="#en">English</a>
+      </div>
     </header>
 
-    <p>カードポケット（以下「本アプリ」）は、バーコードおよびQRコードを読み取り、カード情報として管理するアプリです。本ポリシーは、本アプリにおける情報の取扱いを説明します。</p>
+    <!-- ============================= 日本語 ============================= -->
+    <section id="ja" lang="ja">
+      <p>カードポケット（以下「本アプリ」）は、バーコードおよびQRコードを読み取り、カード情報として管理するアプリです。本ポリシーは、本アプリにおける情報の取扱いを説明します。</p>
 
-    <h2>1. 本アプリ内で扱う情報</h2>
-    <p>本アプリでは、カード名、バーコードまたはQRコードの読み取り結果、および利用者が入力した関連情報（以下「カード情報」）を扱います。カード情報は利用者の端末内のデータベースに保存されます。</p>
-    <div class="notice">
-      <strong>カード情報を当方のサーバーへ送信・保存する機能、クラウド同期機能はありません。</strong>
-    </div>
+      <h2>1. 本アプリ内で扱う情報</h2>
+      <p>本アプリでは、カード名、バーコードまたはQRコードの読み取り結果、および利用者が入力した関連情報（以下「カード情報」）を扱います。カード情報は利用者の端末内のデータベースに保存されます。</p>
+      <div class="notice">
+        <strong>カード情報を当方のサーバーへ送信・保存する機能、クラウド同期機能はありません。</strong>
+      </div>
 
-    <h2>2. カメラの利用とスキャン機能</h2>
-    <p>本アプリは、カード情報の読み取りのために Google Play サービスが提供するコードスキャン機能を利用します。スキャン時、カメラ映像の処理は Google Play サービスによって安全に行われ、本アプリがお客様のカメラ映像に直接アクセスしたり、映像を保存・送信することはありません。 また、本アプリ自体に対してカメラへのアクセス許可を個別に設定する必要もありません。</p>
+      <h2>2. カメラの利用とスキャン機能</h2>
+      <p>本アプリは、カード情報の読み取りのために Google Play サービスが提供するコードスキャン機能を利用します。スキャン時、カメラ映像の処理は Google Play サービスによって安全に行われ、本アプリがお客様のカメラ映像に直接アクセスしたり、映像を保存・送信することはありません。 また、本アプリ自体に対してカメラへのアクセス許可を個別に設定する必要もありません。</p>
 
-    <h2>3. 広告</h2>
-    <p>本アプリはGoogle AdMobを使用して広告を表示します。広告の配信、表示回数の測定、不正行為の防止および広告の最適化のため、広告識別子、IPアドレス、端末情報、アプリの操作に関する情報などがGoogleにより処理される場合があります。これらの情報の取扱いはGoogleのプライバシーポリシーに従います。</p>
-    <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></p>
+      <h2>3. 広告</h2>
+      <p>本アプリはGoogle AdMobを使用して広告を表示します。広告の配信、表示回数の測定、不正行為の防止および広告の最適化のため、広告識別子、IPアドレス、端末情報、アプリの操作に関する情報などがGoogleにより処理される場合があります。これらの情報の取扱いはGoogleのプライバシーポリシーに従います。</p>
+      <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></p>
 
-    <h2>4. 利用状況の分析およびクラッシュレポート</h2>
-    <p>本アプリは、品質改善および不具合の把握のためにFirebase AnalyticsおよびFirebase Crashlyticsを使用します。これらのサービスは、アプリの利用状況、端末・OSの情報、アプリのバージョン、クラッシュ時の技術情報、FirebaseインストールIDなどをGoogleに送信・処理する場合があります。</p>
-    <p>これらの情報は、本アプリの利用状況の把握、安定性の改善、不具合の調査および修正のために使用します。カード情報の内容を、分析またはクラッシュレポートの目的で意図的に送信することはありません。</p>
-    <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase におけるプライバシーとセキュリティ</a></p>
+      <h2>4. 利用状況の分析およびクラッシュレポート</h2>
+      <p>本アプリは、品質改善および不具合の把握のためにFirebase AnalyticsおよびFirebase Crashlyticsを使用します。これらのサービスは、アプリの利用状況、端末・OSの情報、アプリのバージョン、クラッシュ時の技術情報、FirebaseインストールIDなどをGoogleに送信・処理する場合があります。</p>
+      <p>これらの情報は、本アプリの利用状況の把握、安定性の改善、不具合の調査および修正のために使用します。カード情報の内容を、分析またはクラッシュレポートの目的で意図的に送信することはありません。</p>
+      <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase におけるプライバシーとセキュリティ</a></p>
 
-    <h2>5. 第三者への提供</h2>
-    <p>当方はカード情報を第三者に販売または提供しません。ただし、上記のGoogle AdMob、Firebase AnalyticsおよびFirebase Crashlyticsの利用に伴い、各サービスの提供に必要な情報がGoogleにより処理される場合があります。Googleによる情報の取扱いは、Googleのプライバシーポリシーおよび各サービスの規約に従います。</p>
+      <h2>5. 第三者への提供</h2>
+      <p>当方はカード情報を第三者に販売または提供しません。ただし、上記のGoogle AdMob、Firebase AnalyticsおよびFirebase Crashlyticsの利用に伴い、各サービスの提供に必要な情報がGoogleにより処理される場合があります。Googleによる情報の取扱いは、Googleのプライバシーポリシーおよび各サービスの規約に従います。</p>
 
-    <h2>6. 情報の削除と端末内データ</h2>
-    <p>カード情報は本アプリ内の削除機能により削除できます。本アプリをアンインストールすると、通常は端末内に保存された本アプリのデータも削除されます。ただし、端末のバックアップ設定などにより残る場合があります。</p>
+      <h2>6. 情報の削除と端末内データ</h2>
+      <p>カード情報は本アプリ内の削除機能により削除できます。本アプリをアンインストールすると、通常は端末内に保存された本アプリのデータも削除されます。ただし、端末のバックアップ設定などにより残る場合があります。</p>
 
-    <h2>7. セキュリティ</h2>
-    <p>当方は、端末内に保存されるカード情報を不必要に外部送信しないよう設計しています。ただし、端末の紛失、第三者による端末へのアクセス、OSや他アプリの脆弱性などに起因する損害を完全に防止することはできません。端末の画面ロック等を適切に設定してください。</p>
+      <h2>7. セキュリティ</h2>
+      <p>当方は、端末内に保存されるカード情報を不必要に外部送信しないよう設計しています。ただし、端末の紛失、第三者による端末へのアクセス、OSや他アプリの脆弱性などに起因する損害を完全に防止することはできません。端末の画面ロック等を適切に設定してください。</p>
 
-    <h2>8. 免責事項</h2>
-    <p>本アプリによる読み取り結果の正確性、完全性、有用性および特定用途への適合性を保証するものではありません。重要な情報は原本と照合してください。本アプリの利用により生じた損害について、法令上許される範囲で当方は責任を負いません。</p>
+      <h2>8. 免責事項</h2>
+      <p>本アプリによる読み取り結果の正確性、完全性、有用性および特定用途への適合性を保証するものではありません。重要な情報は原本と照合してください。本アプリの利用により生じた損害について、法令上許される範囲で当方は責任を負いません。</p>
 
-    <h2>9. ポリシーの変更</h2>
-    <p>本ポリシーは、法令の変更または本アプリの機能変更に応じて改定することがあります。重要な変更がある場合は、本ページまたは本アプリ内でお知らせします。</p>
+      <h2>9. ポリシーの変更</h2>
+      <p>本ポリシーは、法令の変更または本アプリの機能変更に応じて改定することがあります。重要な変更がある場合は、本ページまたは本アプリ内でお知らせします。</p>
 
-    <h2>10. お問い合わせ</h2>
-    <p>本ポリシーまたは情報の取扱いに関するお問い合わせは、以下のメールアドレスまでご連絡ください。</p>
-    <p><strong>連絡先：</strong><a href="mailto:mojux.support+cardpocket@gmail.com">mojux.support+cardpocket@gmail.com</a></p>
+      <h2>10. お問い合わせ</h2>
+      <p>本ポリシーまたは情報の取扱いに関するお問い合わせは、以下のメールアドレスまでご連絡ください。</p>
+      <p><strong>連絡先：</strong><a href="mailto:mojux.support+cardpocket@gmail.com">mojux.support+cardpocket@gmail.com</a></p>
+    </section>
 
-    <footer>© 2026 Card Pocket</footer>
+    <hr>
+
+    <!-- ============================= ENGLISH ============================= -->
+    <section id="en" lang="en">
+      <h2>Privacy Policy — Card Pocket</h2>
+      <p class="updated">Last updated: September 5, 2026</p>
+      <br>
+
+      <p>Card Pocket ("the App") is an application designed to scan barcodes and QR codes and manage them as card information. This policy explains how information is handled within the App.</p>
+
+      <h2>1. Information Processed in the App</h2>
+      <p>The App handles card names, barcode or QR code scan results, and related details entered by the user (hereinafter referred to as "Card Information"). Card Information is saved solely in the database within the user's device.</p>
+      <div class="notice">
+        <strong>The App does not transmit or store Card Information on external servers, nor does it feature cloud synchronization.</strong>
+      </div>
+
+      <h2>2. Camera Usage and Scanning Functionality</h2>
+      <p>The App utilizes the code scanning API provided by Google Play services to scan card information. During scanning, camera frames are processed securely by Google Play services. The App itself does not directly access your camera feed, nor does it save or transmit camera images. Furthermore, you do not need to grant individual camera permissions to the App directly.</p>
+
+      <h2>3. Advertisements</h2>
+      <p>The App uses Google AdMob to display advertisements. To serve ads, measure ad performance, prevent fraud, and optimize advertising, Google may process advertising identifiers, IP addresses, device information, and app interaction data. The handling of this information is governed by Google's Privacy Policy.</p>
+      <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
+
+      <h2>4. Usage Analytics and Crash Reporting</h2>
+      <p>The App uses Firebase Analytics and Firebase Crashlytics to improve quality and diagnose issues. These services may send and process app usage data, device/OS details, app versions, technical crash logs, and Firebase installation IDs to Google.</p>
+      <p>This information is used to understand app usage, enhance stability, and investigate/fix bugs. The App does not intentionally transmit any contents of your Card Information for analytics or crash reporting purposes.</p>
+      <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy and Security in Firebase</a></p>
+
+      <h2>5. Third-Party Disclosures</h2>
+      <p>We do not sell or provide your Card Information to third parties. However, through the use of Google AdMob, Firebase Analytics, and Firebase Crashlytics, necessary data may be processed by Google to deliver these services according to Google's Privacy Policy and service terms.</p>
+
+      <h2>6. Data Deletion and On-Device Storage</h2>
+      <p>Card Information can be deleted anytime using the in-app delete function. Uninstalling the App will generally remove all App data stored on your device, subject to your device's backup settings.</p>
+
+      <h2>7. Security</h2>
+      <p>The App is designed not to send stored Card Information to external systems unnecessarily. However, complete protection against loss of device, unauthorized third-party access, or vulnerabilities in OS and other apps cannot be guaranteed. Please configure appropriate security measures such as screen locks on your device.</p>
+
+      <h2>8. Disclaimer</h2>
+      <p>We do not guarantee the accuracy, completeness, utility, or fitness for a particular purpose of the scanning results. Please verify important information with original cards. To the extent permitted by law, we assume no liability for any damages arising from the use of the App.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>This policy may be revised due to legal changes or modifications to the App's features. Significant changes will be announced on this page or within the App.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have any questions or inquiries regarding this policy or the handling of information, please contact us at:</p>
+      <p><strong>Contact: </strong><a href="mailto:mojux.support+cardpocket@gmail.com">mojux.support+cardpocket@gmail.com</a></p>
+    </section>
+
+    <footer>© mojux</footer>
   </main>
 </body>
 </html>
